@@ -1,8 +1,7 @@
-N=int(input())
+n=int(input())
 l=0
-while N>0:
-    r=N%10
-    if l<r:
-        l=r
-    N=N//10
+for i in str(n):
+    p=int(i)
+    if l<p:
+        l=p
 print(l)
