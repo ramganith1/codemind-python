@@ -1,6 +1,7 @@
 n=int(input())
 c=0
-a,b=0,1
+a=1
+b=1
 if n==0 or n==1:
     print('True')
 else:
@@ -8,7 +9,7 @@ else:
         c=a+b
         b=a
         a=c
-    if n==c:
+    if c==n:
         print('True')
     else:
         print('False')
